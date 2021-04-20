@@ -1,0 +1,145 @@
+
+*{
+	margin:0;
+	padding:0;
+}
+body
+{
+	font-family:algerian;
+}
+#nav-bar
+{
+	background-color:#52057b;
+	position: sticky;
+	top:0;
+	z-index:10;
+	float: right;
+}
+.nav-link:hover{
+    background-color:blue;
+}
+.navbar
+{
+	
+    padding:0% !important;
+}
+navbar-brand img
+{
+	height:40px;
+	padding-left:20px;
+}
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+.navbar-nav li a
+{
+color:#fff !important;
+font-weight:1000;
+float:right;
+text-align:left;
+}
+.fa-bars
+{
+	color:#fff;
+	font-size:30p !important;
+}
+.navbar-toggler
+{
+	outline:none !important;
+}
+/*---banner section--*/
+#main
+{
+text-align: center;
+background-color:#26C49F;
+padding-top:5%;	
+}
+.container h1 {
+	padding-bottom: 15px;
+    color:white;
+	font-family:algerian;
+	font-size:75px;
+}
+
+
+/*---service section---*/
+#features1
+{
+	text-align: center;
+	padding: 15% 15%;
+}
+ #features
+ {
+     text-align:left;
+	 padding:5%; 
+	 background-image: url('http://4.bp.blogspot.com/-I3CjZ2i1x6M/WRL_OIgb8LI/AAAAAAAABLA/7bMzwX3f-9s0dVClCOvhLM2QnVwVYqrVACK4B/s1600/Banking-awareness.jpg');
+	background-repeat: no-repeat;
+	background-size: 600px 300px;
+	background-position: center;
+	
+ }
+ .features1 h3
+{
+	padding:10%;
+	margin-top:25px;
+	
+}
+
+.features h3
+{
+	padding:5px;
+	margin-top:25px;
+	
+}
+.title::before
+{
+	content:'';
+	background:#FADBD8;
+	height:5px;
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	transform:translatey(63px);
+}
+
+#features .btn-primary
+{
+	box-shadow:none;
+	padding:10px 25px;
+	border:none;
+	align-content: center;
+	background-image:linear-gradient(to right,#a517ba,#5f1782)
+}
+/* Action*/
+  #action{
+    background-color:#32C8A4;
+    padding: 5% 10%;
+    text-align: center;
+    line-height: 1.5;
+    color: #fff;
+	font-family:Freestyle script;
+  }
+  .main{
+	font-family:Freestyle script;
+    font-size: 3rem;
+    line-height:1;
+    padding: 5px 10px;
+  }
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* footer */
+#footer{
+	background-color:#31326f;
+    color:#fff;
+    padding: 4% 25%;
+    text-align: center;
+}
